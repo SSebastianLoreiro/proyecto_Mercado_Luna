@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul: rgb(27, 88, 142);
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/bg-plants.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+form{
+    display: inline-block;
+    text-align: left;
+    padding-left: 1rem;
+    margin-top: 10rem;
+    background-color: rgba(127, 255, 212, 0.415);
+    height: 300px;
+    color: black;
+    height: 100%;
+    position: relative;
+}
+img{
+    position: absolute;
+    right: 0;
+    width: 70px;
+}
+h1{
+    padding-bottom: 3rem;
+    color: var(--azul);
+}
+
+h2{
+    font-size: 1.3rem;
+    color: var(--azul);
+    padding-left: 1rem;
+}
+input{
+    display: inline-block;
+    margin: 1.5rem;
+    padding: .4rem;
+    border: 1PX solid rgb(156, 154, 154);
+    font-size: 1.2rem;
+    box-shadow: inset 10px 12px 14px rgba(0, 0, 0, 0.2);
+    color: var(--azul);
+}
+
+input:focus{
+    border: 1px solid black;
+    outline: none;
+    box-shadow:inset 10 12px 14px rgba(0, 0, 0, 0.2), 10 10 14px rgba(0, 120, 215, 0.5);
+}
+
+button{
+    display: block;
+    width: 10rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 1.5rem;
+    border: 1px solid var(--azul);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: var(--azul);
+    border: 1px solid black;
+    color: wheat;
+}
+
+
+p{
+    margin-top: 2rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
